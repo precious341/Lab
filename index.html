@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LabBridge — Medical Laboratory Report Understanding</title>
+    <meta
+      name="description"
+      content="Upload medical laboratory reports, review extracted measurements, compare against lab reference ranges, and read plain-language educational explanations."
+    />
+    <meta property="og:title" content="LabBridge — Medical Laboratory Report Understanding" />
+    <meta
+      property="og:description"
+      content="Upload medical laboratory reports, review extracted measurements, compare against lab reference ranges, and read plain-language educational explanations."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] antialiased">
+    <div id="root"></div>
+    <script>
+      if (typeof globalThis.Iterator === 'undefined') {
+        var iterProto = Object.getPrototypeOf(Object.getPrototypeOf([][Symbol.iterator]()));
+        function Iterator() {}
+        Iterator.prototype = iterProto;
+        globalThis.Iterator = Iterator;
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

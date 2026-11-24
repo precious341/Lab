@@ -1,0 +1,6 @@
+{
+  "name": "LabBridge",
+  "description": "Intelligent medical laboratory report understanding platform for extracting, verifying, comparing, and explaining lab test results in plain language.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
